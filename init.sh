@@ -5,10 +5,10 @@
 ###############
 
 DIR=`pwd`
-#DOWNLOADER="wget"
-#URL="http://download.sourceforge.net/devkitpro"
-DOWNLOADER="ls -la"
-URL="."
+DOWNLOADER="wget"
+URL="http://download.sourceforge.net/devkitpro"
+#DOWNLOADER="ls -la"
+#URL="."
 ARCH=`uname -m`
 DEVKITARM="devkitARM_r41-${ARCH}-linux.tar.bz2"
 DEFAULT_ARM7="default_arm7-0.5.24.tar.bz2"
